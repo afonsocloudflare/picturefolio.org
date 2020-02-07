@@ -1,0 +1,414 @@
+/*This is the CSS for the html */ 
+
+html {
+    background-color: #f1edea;
+    color: #838383;
+    font-family: 'Cinzel', serif;
+}
+
+a {
+    color: #838383;
+    text-decoration: none;
+}
+
+body {
+    margin: 1em 0 0 0;
+}
+
+li {
+    list-style: none;
+}
+
+/*This is the CSS for the navigation */ 
+/* Add stick class to navigation when scroll */
+.stick {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#navigation {
+      z-index: 5;
+      background-color: #ffffff;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      padding: 0.7em;
+      text-transform: uppercase;
+}
+
+ul#navigation {
+    margin-top: 0;
+}
+
+/*This is the CSS for the header image */ 
+
+#header {
+    width: 100%;
+    height: auto;
+    padding-bottom: 2em;
+}
+
+.centerText{
+    margin-bottom: 2em auto;
+    width: 100%;
+}
+
+.headerText {
+    position: absolute; 
+    top: 45%; 
+    left: 30%; 
+    font-size: 3em;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 100;
+    font-family: 'Cinzel', serif;
+}
+
+.lowerCase.fancyText {
+    text-transform: none;
+    font-size: 1.5em;
+}
+/*This is the CSS for the main sections */ 
+.section {
+    width: 95%;
+    margin: 0 auto;
+}
+
+h2 {
+      z-index: 1;
+      font-weight: 100;
+      text-transform: uppercase;
+}
+
+.active {
+      font-weight: bold;
+      color: #767b67;
+      text-decoration: underline;
+}
+
+.kissingOne {
+    width: 20em;
+    height: 20em;
+    background-image: url("img/Kissing1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 1em;
+    margin-bottom: -1em;
+}
+
+.kissingOne:hover {
+    background-image: url("img/Kissing2.jpg");
+}
+
+.handHoldingOne {
+    width: 32em;
+    height: 22em;
+    background-image: url("img/HandHolding2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 1em;
+}
+
+.handHoldingOne:hover {
+    background-image: url("img/HandHolding1.jpg");
+}
+
+.hugOne {
+    width: 25em;
+    height: 20em;
+    background-image: url("img/Hug1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 2em;
+    margin-top: 3em;
+}
+
+.hugOne:hover {
+    background-image: url("img/Hug2.jpg");
+}
+
+.treeOne {
+    width: 18em;
+    height: 25em;
+    background-image: url("img/JTree1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 1em;
+    margin-top: -4em;
+}
+
+.treeOne:hover {
+    background-image: url("img/JTree2.jpg");
+}
+
+.lightGrayBox {
+    display: flex;
+    background-color: #f5f0ec;
+    justify-content: center;
+}
+
+.whiteBox {
+    display: flex;
+    background-color: #ffffff;
+    justify-content: center;
+}
+
+#aboutSection {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#aboutSection p.fancyText {
+    max-width: 17em;
+    margin-top: 0;
+}
+
+i {
+    font-size: 1.5em;
+    padding: 0.5em;
+}
+
+i:hover {
+    color: #767b67;
+}
+
+.footerSocial {
+    padding-top: 1em;
+}
+
+.largeContainer {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
+    background-color: #ffffff;
+}
+
+.box {
+     width: 50%;
+     outline: 4px solid #ffffff;
+     display: flex;
+     flex-wrap: wrap;
+     height: auto;
+     overflow: hidden;
+}
+
+.smallBox {
+    min-width: 50%;
+    outline: 4px solid #ffffff;
+    height: 8em;
+}
+
+.orangePhoto {
+    background-color: #b16d4a;
+    display: flex;
+    align-content: center;
+}
+
+.epicKiss, .standUp{
+    height: 13em;
+    margin: 0 auto;
+}
+
+.greenPhoto {
+    background-color: #a6aea7;
+    display: flex;
+    align-content: center;
+}
+
+.smallBox {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.balance {
+    background-image: url("img/balance.jpg");
+}
+
+.rockKiss {
+    background-image: url("img/RockKiss.jpg");
+}
+
+.running {
+    background-image: url("img/Running.jpg");
+}
+
+.treeLookAway {
+    background-image: url("img/TreeLookAway.jpg");
+}
+
+.ring {
+    background-image: url("img/ring.jpg");
+}
+
+.shoulders {
+    background-image: url("img/shoulders.jpg");
+}
+
+.overShoulder {
+    background-image: url("img/overShoulder.jpg");
+}
+
+.flower {
+    background-image: url("img/flower.jpg");
+}
+
+.none {
+    display: none;
+}
+/*This is the CSS for the email section */ 
+
+#emailSection {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.emailform {
+    height: 2.15em;
+    width: 20em;
+    outline: solid 2px #767b67;
+    font-family: 'Cinzel', serif;
+    border: none;
+    border-radius: none;
+}
+
+.submit {
+    background-color: #ffffff;
+    outline: solid 2px #767b67;
+    font-family: 'Cinzel', serif;
+    padding: 0 0.3em;
+    display: flex;
+    align-items: center;
+}
+
+.submit:hover {
+    background-color: #767b67;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+}
+
+/*This is the CSS for the social media section */ 
+#socialSection {
+    height: 500px;
+}
+
+/*Saving for later */
+.green {
+      background-color: #767b67;
+}
+
+.lightGray  {
+    background-color: #f5f0ec;
+}
+
+.fancyText {
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-size: 1.5em;
+}
+
+p.fancyText {
+    max-width: 15em;
+}
+  
+/*This is the footer CSS */ 
+
+#footer {
+    min-height: 10em;
+    background-color: #767b67;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9em;
+    padding: 3em 1em 1em 4em;
+}
+
+#footer a {
+    color: #ffffff;
+}
+
+input:focus, textarea:focus, select:focus{
+        outline: none;
+ }
+
+/*These are the media queries */ 
+
+@media (max-width: 1580px) {
+    .headerText {
+        top: 40%; 
+        left: 22%; 
+    }
+}
+
+@media (max-width: 785px) {
+    .headerText {
+        top: 25%; 
+        left: 25%; 
+    }
+    .lightGrayBox, .whiteBox {
+        flex-direction: column;
+        align-items: center;
+    }
+    .treeOne, .hugOne{
+        margin-top: 0;
+        margin: 1em;
+        width: 15em;
+        height: 10em;
+    }
+    .handHoldingOne, .kissingOne{
+        margin-top: 2em;
+        width: 15em;
+        height: 12em;
+    }
+    .hugOne {
+        margin-left: -4em;
+    }
+
+    .kissingOne {
+        margin-left: 0.5em;
+    }
+    .largeContainer {
+        width: 98%;
+    }
+}
+
+@media (max-width: 665px) {
+    .headerText {
+        top: 20%; 
+        left: 20%; 
+        font-size: 2em;
+    }
+    .largeContainer {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .box {
+        width: 100%;
+   }
+
+   #navigation {
+       font-size: 0.7em;
+   }
+}
+
+@media (max-width: 530px) {
+    .headerText {
+        top: 16%; 
+        left: 15%; 
+        font-size: 2em;
+    }
+}
